@@ -10,7 +10,8 @@
 
 ## Технологический стек
 
-<img src="https://img.shields.io/badge/Webpack-464a51?style=for-the-badge&logo=webpack&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/React-464a51?style=for-the-badge&logo=react&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/React Router-464a51?style=for-the-badge&logo=react Router&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/Typescript-464a51?style=for-the-badge&logo=typescript&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/Mui-464a51?style=for-the-badge&logo=mui&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/redux-toolkit-Query"/>
+<img src="https://img.shields.io/badge/Webpack-464a51?style=for-the-badge&logo=webpack&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/React-464a51?style=for-the-badge&logo=react&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/React Router-464a51?style=for-the-badge&logo=react Router&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/Typescript-464a51?style=for-the-badge&logo=typescript&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/Mui-464a51?style=for-the-badge&logo=mui&logoColor=8DD6F9"/> <img src="https://img.shields.io/badge/redux-toolkit-Query
+"/>
 
 ### Фронтенд
 
