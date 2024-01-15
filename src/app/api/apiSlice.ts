@@ -8,10 +8,18 @@ export interface Post {
 
 export const apiSlice = createApi({
   reducerPath: 'api',
-  baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com' }),
+  baseQuery: fetchBaseQuery({
+    baseUrl: 'https://jsonplaceholder.typicode.com',
+  }),
   endpoints: (builder) => ({
-    getPosts: builder.query<Post[], { limit?: number; offset?: number }>({
-      query: ({ limit = 10, offset = 0 }) => `/posts?_limit=${limit}&_start=${offset}`,
+    getPosts: builder.query<Post[], { limit: number; offset: number }>({
+      query: ({ limit = 10, offset = 0 }) => ({
+        url: './posts',
+        params: {
+          _limit: limit,
+          _start: offset,
+        },
+      }),
     }),
     getPostById: builder.query<Post, number>({
       query: (id) => `/posts/${id}`,
